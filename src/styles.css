@@ -1,2 +1,40 @@
-/* You can add global styles to this file, and also import other style files */
+/**
+ * @file styles.css
+ * @description Configuración de estilos principales usando Tailwind CSS y fuentes personalizadas de Google Fonts.
+ * 
+ * @author Jair Vázquez
+ * @version 1.0
+ * @license MIT
+ * @copyright © 2025 Jair Vázquez. Todos los derechos reservados.
+ * 
+ * @repository https://github.com/WatsiDev/04-Images.git
+ * 
+ * Queda prohibida la reproducción o distribución sin autorización explícita del autor.
+ * Puedes usar este código bajo los términos de la licencia MIT.
+ */
+
+/* Importación de fuentes desde Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+/* Importación de Tailwind CSS */
 @import "tailwindcss";
+
+/**
+ * @theme Definición de tema personalizado.
+ * Se establecen colores y fuentes personalizadas.
+ */
+@theme {
+    /* Color menta principal en formato OKLCH */
+    --color-mint-500: oklch(0.72 0.11 178);
+    --color-barcaGold: #EDBB00;
+    --color-barcaBlue: #004D98;
+    --color-barcaBurdeos: #A50044;
+    --color-barcaRed: #DB0030;
+    --color-barcaYellow: #FFED02;
+    
+
+    /* Definición de fuentes personalizadas */
+    --font-aldrich: "Aldrich", "sans-serif";
+    --font-titillium: "Titillium Web", "sans-serif";
+    --font-saira: "Saira Condensed", "sans-serif";
+}
